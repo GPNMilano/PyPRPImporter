@@ -23,3 +23,8 @@ Mac/Linux
 - Python 2.6.6 
 - Python Imaging Library 
 - PyYAML 3.09
+
+Installation
+------------
+
+For installation instructions please check out the wiki page at [PyPRP Age Importer](http://www.guildofwriters.org/wiki/PyPRP_Age_Importer)
