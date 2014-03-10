@@ -718,6 +718,11 @@ class PrpFile(PrpFileInfo):
             if i.data.Key.page_type==0x0000:
                 #return i
                 scn = i
+        if not scn:
+            for i in idx.objs:
+                if i.type==0x0000:
+                    #return i
+                    scn = i
         print "dustscn:"+`scn`
         return scn
         #return(self.find(0x00,self.getName()))
