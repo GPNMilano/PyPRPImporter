@@ -1454,7 +1454,7 @@ class plDrawableSpans(plDrawable):
                         # Assign the light group to the material
                         mat.lightGroup = lightgroup
                         # And set the group_exclusive bit
-                        mat.mode |= Blender.Material.Modes["GROUP_EXCLUSIVE"]
+                        #mat.mode |= Blender.Material.Modes["GROUP_EXCLUSIVE"]
                     else:
                         print "    Fully lit object (%d sources)"%(len(icicle.fPermaLights.vector) + len(icicle.fPermaProjs.vector))
 
